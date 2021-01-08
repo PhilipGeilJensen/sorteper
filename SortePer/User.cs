@@ -11,6 +11,7 @@ namespace SortePer
         public string Name { get; set; }
         public List<Card> deck = new List<Card>();
         public int Points { get; set; }
+        public bool Player { get; set; }
         Random rand = new Random();
 
         public User(string name)
@@ -19,30 +20,17 @@ namespace SortePer
             Points = 0;
         }
 
-        public void SubmitPair()
+        public User(string name, bool player) 
         {
-            List<PlayingCard> cardsToRemove = new List<PlayingCard>();
-            foreach (PlayingCard card in deck)
-            {
-                foreach (PlayingCard c in deck)
-                {
-                    if (card == c)
-                    {
-                        // Do nothing
-                    }
-                    else if (card.Color == c.Color && card.Value == c.Value && !cardsToRemove.Contains(card) && !cardsToRemove.Contains(c))
-                    {
-                        cardsToRemove.Add(card);
-                        cardsToRemove.Add(c);
-                        Points++;
-                    }
-                }
-            }
+            Name = name;
+            Points = 0;
+            Player = player;
+        }
 
-            foreach (PlayingCard p in cardsToRemove)
-            {
-                deck.Remove(p);
-            }
+        public void SubmitPair(Card card)
+        {
+            deck.Remove(card);
+            Points++;
         }
 
         public void GiveCard(Card card)

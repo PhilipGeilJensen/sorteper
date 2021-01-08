@@ -12,5 +12,9 @@ namespace SortePer
         {
             return new User(name);
         }
+        public User CreateUser(string name, bool player)
+        {
+            return new User(name, player);
+        }
     }
 }

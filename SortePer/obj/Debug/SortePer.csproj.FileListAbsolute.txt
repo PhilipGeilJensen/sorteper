@@ -5,3 +5,10 @@ C:\Users\phil2643\source\repos\SortePer\SortePer\bin\Debug\SortePer.exe
 C:\Users\phil2643\source\repos\SortePer\SortePer\bin\Debug\SortePer.pdb
 C:\Users\phil2643\source\repos\SortePer\SortePer\obj\Debug\SortePer.exe
 C:\Users\phil2643\source\repos\SortePer\SortePer\obj\Debug\SortePer.pdb
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\bin\Debug\SortePer.exe.config
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\bin\Debug\SortePer.exe
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\bin\Debug\SortePer.pdb
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\obj\Debug\SortePer.csprojAssemblyReference.cache
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\obj\Debug\SortePer.csproj.CoreCompileInputs.cache
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\obj\Debug\SortePer.exe
+C:\Users\PhilipJensen\source\repos\sorteper\SortePer\obj\Debug\SortePer.pdb
